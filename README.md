@@ -11,3 +11,7 @@ config-dotfiles
 * [`yabai`](https://github.com/koekeishiya/yabai) window manager for MacOS with [`skhd`](https://github.com/koekeishiya/skhd) for keyboard navigation
 
 * [`Visual Studio Code`](https://code.visualstudio.com/) text editor with installed [extensions](vscode/extensions.txt) list
+
+* [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font
+
+* [Homebrew](https://brew.sh/) package manager
