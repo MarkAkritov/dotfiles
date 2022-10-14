@@ -1,0 +1,204 @@
+/* |> Main background color */
+.monaco-grid-view {
+    background-color: rgba(40, 40, 40, 1);
+}
+
+/* |> Main Font */
+.tab,
+.monaco-breadcrumb-item,
+.sidebar,
+.split-view-container,
+.monaco-icon-label-container,
+.quick-input-box {
+    font-family: 'Jetbrains Mono' !important;
+}
+
+/* |> Titlebar */
+.titlebar-container {
+    display: none !important;
+}
+
+/* .window-title {
+    left: calc(10% - 40px) !important;
+    width: 15%;
+} */
+
+/* |> Actions container (upper right corner) */
+div.editor-actions .actions-container {
+    /* border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    border-radius: 7px;
+    margin-top: 2px;
+    max-height: 89%; */
+    display: none;
+}
+
+/* |> Tabs */
+.tabs-container {
+    height: 44px !important;
+}
+
+.tabs-and-actions-container .scrollbar.horizontal {
+    height: 2px;
+}
+
+.tab {
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    border-radius: 7px;
+    margin: 2px !important;
+    max-height: 34px;
+}
+
+.tab.active {
+    border: 2px solid rgba(249, 193, 193, 0.8) !important;
+    border-radius: 12px;
+    color: rgba(11, 235, 202, 0.747) !important;
+    font-weight: bolder;
+}
+
+.tab.active > .tab-border-bottom-container {
+    display: none !important;
+}
+
+:hover.tab {
+    border: 1.5px solid rgba(255, 255, 255, 0.7) !important;
+    border-radius: 9px;
+    margin-right: 1.5px;
+    margin-left: 1.5px;
+}
+
+:hover.tab.active {
+    border: 2px solid rgba(249, 193, 193, 1) !important;
+}
+
+.monaco-icon-label, .tab-label {
+    max-height: 38px !important;
+}
+
+/* |> Editor top file path (breadcrumbs) */
+/* .tabs-breadcrumbs {
+    border: 1px solid white;
+    margin-top: 2px;
+    height: 90%;
+} */
+
+.monaco-breadcrumb-item {
+    font-weight: bolder;
+}
+
+/* Activity Bar */
+/* .activitybar {
+    width: 90% !important;
+} */
+
+/* .actions-container > .action-item {
+    margin-bottom: 2px;
+}
+
+:hover.actions-container > .action-item {
+    border: 1.5px solid rgba(195, 199, 114, 0.7);
+    border-radius: 9px;
+    margin-bottom: 0.5px;
+} */
+
+/* |> Sidebar */
+.sidebar .split-view-container {
+    border: 0.5px solid transparent !important;
+    border-radius: 7px;
+    max-height: 99.5%;
+    max-width: 96%;
+    margin: 4px !important;
+    margin-top: 0 !important;
+}
+
+:hover.sidebar .split-view-container {
+    border: 0.5px solid rgba(255, 255, 255, 0.4) !important;
+    background-color: rgba(50, 48, 47, 0.2) !important;
+}
+
+:hover.sidebar .monaco-list-row {
+    background-color: rgba(50, 48, 47, 0.2) !important;
+}
+
+/* |> Command window */
+.quick-input-widget {
+    border: 3px solid rgba(114, 199, 192, 0.813);
+    border-radius: 12px;
+    margin-top: 300px;
+}
+
+.quick-input-header {
+    border: 3px solid rgba(255, 255, 255, 0.87);
+    border-radius: 9px;
+    padding: 0%;
+}
+
+.quick-input-box input.input {
+    font-weight: bolder !important;
+    border-radius: 7px;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* TODO */
+.quick-input-list .monaco-list {
+    /* border-width: 0px !important; */
+    border-color: cyan !important;
+}
+
+/* |> Notifications */
+/* TODO */
+.notifications-toasts-container {
+    border: 1px solid white !important;
+    border-radius: 7px !important;
+}
+
+/* |> Footer & status bar */
+/* Git Branch */
+footer.statusbar div#status\.scm\.0 > a {
+    border: 1px solid #fabd2fcc;
+    border-radius: 9px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #fabd2fcc;
+    color: black;
+    font-weight: bolder;
+}
+
+/* Other */
+/* :hover footer.statusbar .statusbar-item {
+    border: 1px solid whitesmoke !important;
+    border-radius: 9px !important;
+} */
+
+/* |> Buttons */
+.monaco-button, button {
+    border-radius: 9px;
+}
+
+:hover.monaco-button, button {
+    border: 1.5px solid whitesmoke;
+    padding: 0.5px;
+}
+
+/* Notebooks */
+.cell-title-toolbar {
+    border: 1.5px solid whitesmoke;
+    border-radius: 12px;
+    top: -15px;
+}
+
+.cell-editor-container > .monaco-editor {
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+}
+
+:hover.cell-editor-container > .monaco-editor {
+    border: 2px solid whitesmoke;
+}
+
+.cell-editor-container .margin {
+    border-radius: 12px;
+}
+
+.cell-editor-container .editor-scrollable {
+    border-radius: 12px;
+}
